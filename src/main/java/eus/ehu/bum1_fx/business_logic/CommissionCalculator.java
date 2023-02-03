@@ -1,4 +1,6 @@
-package eus.ehu.bum1_fx;
+package eus.ehu.bum1_fx.business_logic;
+
+import eus.ehu.bum1_fx.business_logic.ForexOperator;
 
 /**
  * This class knows the result of a forex exchange operation in terms of the SHORT NAME

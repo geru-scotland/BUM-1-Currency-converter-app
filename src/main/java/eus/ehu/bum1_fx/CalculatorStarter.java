@@ -1,5 +1,9 @@
 package eus.ehu.bum1_fx;
 
+import eus.ehu.bum1_fx.business_logic.CommissionCalculator;
+import eus.ehu.bum1_fx.business_logic.Currency;
+import eus.ehu.bum1_fx.business_logic.ForexOperator;
+
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
