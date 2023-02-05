@@ -20,4 +20,9 @@ public class BarcenaysCalculator implements ExchangeCalculator{
         CommissionCalculator calculator = new CommissionCalculator(amount, origCurrency);
         return calculator.calculateCommission();
     }
+
+    @Override
+    public void ValueOf(String name) {
+        Currency.valueOf(name);
+    }
 }
